@@ -1,35 +1,42 @@
-* {
-    margin: 0;
+{
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border box;
+    margin: 0rder-box;}
+
     body{
-  background-color: rgb(0, 0, 55);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-family: sans-serif;
-}
+  background-color :navy;
+  }
+
 h1 {
     color: white;
     padding-top:10px;
     text-align: center;
     font-size: 50px;
 }
+main {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
 input{background-color: white;
-    border: 1px solid black;
+
     padding: 10px;
-    width: 300px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
     font-size: 16px;
-    
-    
+}
+input type="checkbox" {
+    width: 400px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
 }
 textarea {
     background-color: white;
-    border: 1px solid black;
+
     padding: 10px 12px;
     width: 100%;
     height: 100px;
@@ -42,16 +49,14 @@ textarea {
         background-color: aliceblue;
         cursor: pointer;
         font-size:16px ;
-        color: black;
+        color:white;
         padding: 10px 12px;
     }
 
-}
+
 button {
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
     padding: 10px 12px;
-    width: 100px;
-    cursor: pointer;
+     cursor: pointer;
     font-size: 18px;
 }
